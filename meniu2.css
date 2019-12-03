@@ -1,0 +1,83 @@
+p { font-family: 'Montserrat', sans-serif; }
+h1{ font-family: 'Montserrat', sans-serif;
+ background-color: #8FB14E;
+
+}
+
+fieldset {
+  margin: 10px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 8px;
+             background-color: #8FB14E;
+  box-shadow: 0 0 10px #666;
+  padding-top: 10px;
+}
+
+
+[id="sign-in"]:checked ~ input.sign-in,
+[id="sign-up"]:checked ~ input.sign-up,
+[id="reset"]:checked ~ input.reset {
+    font-family: 'Montserrat', sans-serif;
+    max-height: 40px;
+    padding: 10px;
+    margin: 10px 0;
+    opacity: 1;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    width: 225px;
+    height: 40px;
+    border-radius: 5px; 
+    border-color: #CEB31E;
+    background-color: #CEB31E;
+    font-size: 5;
+    border: none;
+    &:before { font-size: 16px;
+    border: none;}
+    
+}
+
+[id="sign-in"]:checked ~ button:before { content: 'Prisijungti'; }
+[id="sign-up"]:checked ~ button:before { content: 'Registruotis'; }
+[id="reset"]:checked ~ button:before { content: 'Reset password'; }
+    
+
+
+
+[id="sign-in"]:checked ~ [for="sign-in"],
+[id="sign-up"]:checked ~ [for="sign-up"],
+[id="reset"]:checked ~ [for="reset"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    &:after {
+        border-bottom-color: #fff;
+    }
+}
+
+.flex-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    text-align: center;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+     appearance: none;
+
+
+    
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+ 
+    background-color: #567D30;
+    font-size: 16px;
+ 
+
+}
