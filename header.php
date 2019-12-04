@@ -34,10 +34,10 @@ li a:hover {
 <body>
 
 <ul>
-  <li><a href="index.php">Prisijunkti</a></li>
-  <li><a href="kontaktai.php">Kontaktai</a></li>
-  <li><a href="naujienos.php">Naujienos</a></li>
-  <li><a href="landingpg.php">Namai</a></li>
+  <li><a href="index.php">Log in</a></li>
+  <li><a href="kontaktai.php">Contacts</a></li>
+  <li><a href="naujienos.php">News</a></li>
+  <li><a href="landingpg.php">Home</a></li>
 </ul>
 
 </body>

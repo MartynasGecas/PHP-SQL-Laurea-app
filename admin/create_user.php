@@ -14,7 +14,7 @@
 </head>
 <body>
 	<fieldset>
-		<h2>Pridėti vartotoją</h2>
+		<h2>Add a user</h2>
     <fieldset>
 	
 	<form method="post" action="create_user.php">
@@ -22,32 +22,32 @@
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
-			<label>Vartotojo vardas: </label><br>
+			<label>User name: </label><br>
 			<input type="text" name="username" value="<?php echo $username; ?>">
 		</div>
 		<div class="input-group">
-			<label>El. paštas: </label><br>
+			<label>Email: </label><br>
 			<input type="email" name="email" value="<?php echo $email; ?>">
 		</div>
 		<div class="input-group">
-			<label>Vartotojo tipas: </label><br>
+			<label>User type: </label><br>
 			<select name="user_type" id="user_type" >
 				<option value=""></option>
-				<option value="admin">Administratorius        </option>
-				<option value="user">Vartotojas</option>
+				<option value="admin">Admin</option>
+				<option value="user">User</option>
 			</select>
 		</div>
 		<div class="input-group">
-			<label>Slaptažodis: </label><br>
+			<label>Password: </label><br>
 			<input type="password" name="password_1">
 		</div>
 		<div class="input-group">
-			<label>Pakartokite slaptažodį: </label><br>
+			<label>Repeat password: </label><br>
 			<input type="password" name="password_2">
 		</div><br><br>
 		<div class="input-group">
-			<button type="submit" name="register_btn"> Pridėti vartotoją</button><br><br>
-            <a href="home.php">Gryžti atgal</a>
+			<button type="submit" name="register_btn"> Add an user</button><br><br>
+            <a href="home.php">Go back</a>
 		</div>
 	</form>
         </fieldset>

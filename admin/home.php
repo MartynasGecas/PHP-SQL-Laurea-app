@@ -41,7 +41,7 @@ tr:nth-child(even) {background-color: yellowgreen}
     <div class="profile_info">
 	<div class="header">
         
-		<h2>Admin pusplapis</h2>
+		<h2>Admin page</h2>
         </div>
 	</div>
 	<div class="content">
@@ -69,24 +69,24 @@ tr:nth-child(even) {background-color: yellowgreen}
 					<small>
 						<i  style="color: #888;">(<?php echo ucfirst($_SESSION['user']['user_type']); ?>)</i> 
 						<br>
-						<a href="home.php?logout='1'" style="color: maroon;">Atsijungti</a>
-						&nbsp; <a href="create_user.php">Prideti vartotoja</a>
+						<a href="home.php?logout='1'" style="color: maroon;">Log out</a>
+						&nbsp; <a href="create_user.php">Add a user +</a>
 					</small>
 				<?php endif ?>
 			</div>
 		</div>
         </fieldset>
 
-        <h1>Užsakymai</h1>
+        <h1>Orders</h1>
         
         
         <table>
             <tr>
-            <th>Priemonės tipas</th>
-            <th>Paemimo laikas</th>
-            <th>Grazinimo laikas</th>
-            <th>Nuomuojamas kiekis</th>
-            <th>Nuomininkas</th>
+            <th>Vehicle type</th>
+            <th>Order time</th>
+            <th>Bring back time</th>
+            <th>Order vehicle amount</th>
+            <th>Person ordering</th>
             </tr>
             <?php
             if ($db->connect_error) {
