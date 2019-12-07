@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
+<meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
 <style>
@@ -32,13 +32,12 @@ li a:hover {
 </style>
 </head>
 <body>
-
+<!--simple meniu-->
 <ul>
-  <li><a href="index.php">Prisijunkti</a></li>
-  <li><a href="kontaktai.php">Kontaktai</a></li>
-  <li><a href="naujienos.php">Naujienos</a></li>
-  <li><a href="landingpg.php">Namai</a></li>
+  <li><a href="index.php">Log in</a></li>
+  <li><a href="kontaktai.php">Contacts</a></li>
+  <li><a href="naujienos.php">News</a></li>
+  <li><a href="landingpg.php">Home</a></li>
 </ul>
-
 </body>
 </html>
