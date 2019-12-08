@@ -33,9 +33,11 @@ uzsakymai //Orders in english
 4. valgr - VARCHAR(50) //Time of return
 5. kiek - INT(50) //Amount of ordered vehicles
 6. nuom - VARCHAR(100) //The name of the person ordering
+7. note - VARCHAR(100) //admins notes
 
 2. Deployment
 
+SQL SCRIPTS AND TEST DATA ARE AVAILABLE
 Every table every column is case sensitive. First a database is set up, then a user can be registered. It will be registered as a normal user. If that user needs to be an Admin, then user type needs to be changed in users table from User to Admin.
 
 https://en.wikipedia.org/wiki/Select_(SQL)
