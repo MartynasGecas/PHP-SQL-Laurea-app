@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 
-	// connect to database
+	// Connection to the database
    define('DB_SERVER', '127.0.0.1:53090');
    define('DB_USERNAME', 'azure');
    define('DB_PASSWORD', '6#vWHD_$');
@@ -56,7 +56,7 @@
 
 		// register user if there are no errors in the form
 		if (count($errors) == 0) {
-			$password = md5($password_1);//encrypt the password before saving in the database
+			$password = md5($password_1);//PASSWORD ENCRYPTION
 
 			if (isset($_POST['user_type'])) {
 				$user_type = e($_POST['user_type']);

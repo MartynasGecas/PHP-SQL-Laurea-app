@@ -1,0 +1,20 @@
+create table script
+
+CREATE TABLE `uzsakymai` (
+  `id` int(100) NOT NULL,
+  `tipas` varchar(100) NOT NULL,
+  `valsk` varchar(50) NOT NULL,
+  `valgr` varchar(50) NOT NULL,
+  `kiek` int(50) NOT NULL,
+  `nuom` varchar(100) NOT NULL,
+  `note` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+ALTER TABLE `uzsakymai`
+  ADD PRIMARY KEY (`id`);
+
+test data:
+
+INSERT INTO `uzsakymai` (`id`, `tipas`, `valsk`, `valgr`, `kiek`, `nuom`, `note`) VALUES
+(9, 'Elektrinis chopperis', '15:36', '14:41', 3, 'Jonas', ''),
+(13, 'Motoroleris', '15:40', '17:20', 2, 'qwwerwe', 'not on time');

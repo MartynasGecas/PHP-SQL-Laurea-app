@@ -61,8 +61,8 @@ button {
     
 }
 
-[id="sign-in"]:checked ~ button:before { content: 'Prisijungti'; }
-[id="sign-up"]:checked ~ button:before { content: 'Registruotis'; }
+[id="sign-in"]:checked ~ button:before { content: 'Log in'; }
+[id="sign-up"]:checked ~ button:before { content: 'Register'; }
 [id="reset"]:checked ~ button:before { content: 'Reset password'; }
     
 label {
